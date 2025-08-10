@@ -1,0 +1,37 @@
+package day3;
+
+import java.util.Scanner;
+
+public class nesiftask {
+
+	public static void main(String[] args) {
+		Scanner scan=new Scanner(System.in);
+		int weight=scan.nextInt();
+		if(weight>=0&&weight<=100)
+		{
+		{
+			System.out.println("Valid");
+		}
+		if(weight%2==0)
+		
+		{
+			System.out.println("YES");
+			int a=(weight/2);
+			System.out.println("weight:"+a+" "+a);
+		}
+		
+		else
+		{
+			System.out.println("NO");
+		}
+		}
+		else
+		{
+			System.out.println("Invalid");
+		}
+		
+	
+
+	}
+
+}

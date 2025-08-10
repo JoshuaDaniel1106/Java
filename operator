@@ -1,0 +1,15 @@
+package day2;
+import java.util.Scanner;
+public class operator {
+
+	public static void main(String[] args) {
+		int num1=27,num2=32,num3=60,num4=17,num5=15,num6=47,num7=8,num8=2,num9=19,num10=36;
+		System.out.println("AND:"+(num1 & num2)+",OR:"+(num1|num2)+",XOR:"+(num1^num2));
+		System.out.println("AND:"+(num3 & num4)+",OR:"+(num3|num4)+",XOR:"+(num3^num4));
+		System.out.println("AND:"+(num5 & num6)+",OR:"+(num5|num6)+",XOR:"+(num5^num6));
+		System.out.println("AND:"+(num7 & num8)+",OR:"+(num7|num8)+",XOR:"+(num7^num8));
+		System.out.println("AND:"+(num9 & num10)+",OR:"+(num9|num10)+",XOR:"+(num9^num10));
+		System.out.println(num1>>2);
+	}
+
+}

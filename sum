@@ -1,0 +1,17 @@
+package day2;
+
+import java.util.Scanner;
+public class sum {
+	public static void main(String[] args) {
+		
+		int n=5;
+		int m=4;
+		int r=220;
+		System.out.println(n>5&&m==43);
+     	System.out.println(!(n==m));
+		System.out.println(n+=3);
+		System.out.println(n&m);
+	    System.out.println(r%100);
+	}
+
+}

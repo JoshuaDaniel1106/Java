@@ -1,0 +1,22 @@
+package day4;
+
+import java.util.Scanner;
+
+public class gcdfor {
+
+	public static void main(String[] args) {
+		Scanner scan=new Scanner(System.in);
+		int a=scan.nextInt();
+		int b=scan.nextInt();
+		int gcd=0;
+		int min=(a<b)?a:b;
+		for(int i=min;i>0;i--) {
+			if(a%i==0 && b%i==0) {
+	           gcd=i;
+	        	   break;
+			}
+		}
+        System.out.println(gcd);
+	}
+}
+

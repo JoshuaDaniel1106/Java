@@ -1,0 +1,23 @@
+package day4;
+import java.util.Scanner;
+public class armstrong {
+
+	public static void main(String[] args) {
+		 Scanner scan = new Scanner(System.in);
+		 int a = scan.nextInt();	        
+		        int b = a;
+		        int sum = 0;
+		        int c = String.valueOf(a).length();
+		        while (a > 0) {
+		            int d = a % 10;
+		            sum += Math.pow(d, c);
+		            a /= 10;
+		        }
+		        if (sum == b) {
+		            System.out.println(b + " is an Armstrong number.");
+		        } else {
+		            System.out.println(b + " is not an Armstrong number.");
+		        }
+	}
+
+}

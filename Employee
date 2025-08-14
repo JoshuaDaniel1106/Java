@@ -1,0 +1,22 @@
+package day8;
+
+public class Employee {
+	int empno;
+    String name;
+    static String companyname;
+    public void display(int empno, String name) {
+        System.out.println("Emp No: " + empno + ", Name: " + name + ", Company: " + companyname);
+    }
+    public static void main(String[] args) {
+        Employee obj = new Employee();
+        System.out.println(obj.empno); 
+        System.out.println(Employee.companyname); 
+        Employee.companyname = "One Piece";
+        obj.display(55, "Dragon");
+        obj.display(56, "Zoro");
+        obj.display(57, "Luffy");
+        obj.display(58, "Garp");
+    }
+}
+
+

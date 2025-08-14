@@ -1,0 +1,14 @@
+package day7;
+
+public class display {
+    public String getName() {
+        String name = "Ajmal";
+        return name;
+    }
+    public static void main(String[] args) {
+        display obj = new display(); 
+        String res = obj.getName();  
+        System.out.println(res);     
+    }
+}
+
